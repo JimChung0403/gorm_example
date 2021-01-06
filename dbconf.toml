@@ -1,0 +1,18 @@
+[dbservers]
+  [dbservers.jimDB]
+  host = "127.0.0.1"
+  port = 13306
+  user = "root"
+  pwd = ""
+  database = "jimDB"
+  idleconn = 10
+  maxconn = 100
+
+  #[dbservers.ex_gorm]
+  #host = "192.168.1.4"
+  #port = 8801
+  #user = "root"
+  #pwd = "admin"
+  #database = "ex_gorm"
+  #idleconn = 10
+  #maxconn = 20
